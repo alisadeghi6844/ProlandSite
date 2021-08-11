@@ -1,0 +1,37 @@
+[
+  {
+    "title": "خانه",
+    "dropDown": false,
+    "dropDownTitle": "",
+    "id": 1,
+    "path": "/"
+  },
+  {
+    "title": "درباره ما",
+    "dropDown": false,
+    "dropDownTitle": "",
+    "id": 2,
+    "path": "/aboutUs"
+  },
+  {
+    "title": "دوره ها",
+    "dropDown": false,
+    "dropDownTitle": "",
+    "id": 3,
+    "path": "/courses"
+  },
+  {
+    "title": "وبلاگ",
+    "dropDown": false,
+    "dropDownTitle": "",
+    "id": 4,
+    "path": "blog"
+  },
+  {
+    "title": "راهنمای انتخاب زبان",
+    "dropDown": false,
+    "dropDownTitle": "",
+    "id": 5,
+    "path": "guide"
+  }
+]

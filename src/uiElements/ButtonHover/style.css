@@ -1,0 +1,21 @@
+.buttonHoverUI button{
+    margin-left: 15px;
+    background: linear-gradient(to right, #ee390f 0%, #f9b700 50%, #ee390f 100%);
+    padding: 8px 30px;
+    border-radius: 50px;
+    box-shadow: 0 12px 20px 0 rgba(255 ,126 ,95, 0.15);
+    background-size: 200% auto;
+    transition: all 0.5s;
+    cursor: pointer !important;
+
+}
+.buttonHoverUI button:hover{
+    background-position: right;
+}
+.buttonHoverUI button a{
+    text-decoration: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    color: #fff !important;
+    font-size: 1rem !important;
+}

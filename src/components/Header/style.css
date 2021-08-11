@@ -1,0 +1,148 @@
+#header{
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    position: absolute;
+    transition: all 0.5s;
+}
+#header.actionScroll{
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    box-shadow: 0 10px 15px rgba(0, 0, 0,0.05);
+    z-index: 9999;
+    background: #fff;
+    padding: 5px 0;
+    transition: all 0.5s;
+}
+#header .headerBox{
+    background: transparent;
+    padding: 12px 0;
+}
+#header .headerBox .imgLogo{
+    text-align: center;
+}
+#header .headerBox .imgLogo img{
+    width: 160px !important;
+}
+#header .headerBox .linkHeader ul li{
+    display: flex;
+    align-items: center;
+}
+
+#header .headerBox .linkHeader ul li a{
+    text-decoration: none;
+    padding: 16px 20px;
+    color: #222;
+    font-size: 1.1rem;
+    transition: all 0.3s;
+}
+#header .headerBox .linkHeader ul li a:hover{
+    color: #ee3a0f;
+}
+@media screen and (max-width: 1201px) {
+    #header .headerBox .imgLogo img{
+        width: 130px !important;
+    }
+    #header .headerBox .linkHeader ul li a{
+        padding: 12px 14px;
+        font-size: 1rem;
+    }
+    #header .headerBox .linkHeader ul li button{
+        padding: 7px 18px !important;
+    }
+    #header .headerBox .linkHeader ul li button a{
+        font-size: 0.9rem !important;
+    }
+}
+@media screen and (max-width: 993px) {
+    #header .headerBox .imgLogo img{
+        width: 160px !important;
+    }
+    #header .headerBox .imgLogo{
+        text-align: left;
+    }
+}
+
+#header .headerBox .buttonToggleMenu{
+    position: relative;
+    width: 55px;
+    height: 37px;
+    margin-top: 13px;
+    cursor: pointer;
+    background: linear-gradient(to right, #ee390f 0%, #f9b700 50%, #ee390f 100%);
+    background-size: 200%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+#header .headerBox .buttonToggleMenu span{
+    display: block;
+    position: relative;
+    width: 60%;
+    height: 2px;
+    background: #555;
+    margin-bottom: 2.5px;
+    margin-top: 2.5px;
+}
+#header .headerBox .container{
+    position: relative;
+}
+#header .headerBox .linkHeaderResponsive{
+    transition: all 0.4s;
+    display: none;
+}
+#header .headerBox .linkHeaderResponsive.activeMenu{
+    transition: all 0.4s;
+    display: block;
+    position: absolute;
+    width: 90%;
+    background: #fff;
+    top: 105%;
+    z-index: 99999;
+    padding: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0,0.05);
+}
+#header .headerBox .linkHeaderResponsive.activeMenu ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+#header .headerBox .linkHeaderResponsive.activeMenu ul li a{
+    text-decoration: none;
+    color: rgba(0,0,0,.9);
+    transition: all 0.3s;
+    display: block;
+}
+#header .headerBox .linkHeaderResponsive.activeMenu ul li a:hover{
+    color: #ff663b;
+}
+#header .headerBox .linkHeaderResponsive.activeMenu ul li button{
+    margin-top:10px;
+    padding: 5px 20px !important;
+    font-size:0.80rem !important;
+}
+@media screen and (max-width: 350px){
+    #header .headerBox .buttonToggleMenu{
+        width: 42px;
+        height: 32px;
+        margin-top: 8px;
+        padding: 4px;
+    }
+    #header .headerBox .buttonToggleMenu span{
+        width: 60%;
+        height: 2px;
+        margin-bottom: 2px;
+        margin-top: 2px;
+    }
+    #header .headerBox .linkHeaderResponsive.activeMenu ul li{
+        margin-top: 12px;
+    }
+    #header .headerBox .linkHeaderResponsive.activeMenu ul li a{
+        font-size: 0.8rem !important;
+    }
+}

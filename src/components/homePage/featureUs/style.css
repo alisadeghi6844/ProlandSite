@@ -1,0 +1,122 @@
+.featureWrapper {
+    padding: 40px 0 60px;
+}
+
+.featureWrapper .featureBox {
+    position: relative;
+    padding: 50px 20px 35px;
+    border: 1px solid #f0f4f6;
+    text-align: center;
+    transition: all 0.5s;
+    z-index: 5;
+    background: #fff;
+}
+
+.featureWrapper .featureBox:hover {
+    border: 1px solid #f48306;
+}
+
+.featureWrapper .featureBox .icon {
+    display: flex;
+    justify-content: center;
+}
+
+.featureWrapper .featureBox .icon span {
+    background: #f0f4f6;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.featureWrapper .featureBox .icon span i {
+    font-size: 1.7rem;
+    transition: all 0.5s;
+}
+
+.featureWrapper .featureBox:hover .icon span i {
+    color: #fff;
+}
+
+.featureWrapper .featureBox:hover .icon span {
+    background: linear-gradient(to right, #ee390f 0%, #f9b700 50%, #ee390f 100%);
+    background-size: 200%;
+}
+
+.featureWrapper .featureBox .text h4 {
+    margin-bottom: 25px;
+    font-size: 1.45rem;
+}
+
+.featureWrapper .featureBox .text p {
+    color: #7f7f7f;
+    line-height: 1.8;
+    font-size: 0.95rem;
+}
+
+.featureWrapper .aboutUs {
+    padding: 35px 20px;
+}
+
+.featureWrapper .aboutUs h2 {
+    font-size: 42px;
+    line-height: 1.222;
+    margin-bottom: 25px;
+}
+
+.featureWrapper .aboutUs p {
+    font-size: 0.95rem;
+    margin-bottom: 0;
+    color: #888888;
+}
+
+.featureWrapper .aboutUs .button {
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .featureWrapper .featureBox{
+        margin-top: 25px;
+    }
+    .featureWrapper .aboutUs{
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .featureWrapper .aboutUs {
+        padding: 30px 15px;
+    }
+
+    .featureWrapper .aboutUs h2 {
+        font-size: 32px;
+        line-height: 1.222;
+        margin-bottom: 20px;
+    }
+
+    .featureWrapper .aboutUs p {
+        font-size: 0.95rem;
+    }
+    .featureWrapper .aboutUs .button {
+        margin-top: 35px;
+    }
+    .featureWrapper .featureBox {
+        padding: 45px 15px 30px;
+    }
+    .featureWrapper .featureBox .text h4 {
+        margin-bottom: 20px;
+        font-size: 1.2rem;
+    }
+    .featureWrapper .featureBox .icon span i {
+        font-size: 1.5rem;
+    }
+    .featureWrapper .aboutUs .button button{
+        padding: 8px 22px !important;
+    }
+    .featureWrapper .aboutUs .button button a{
+        font-size: 0.9rem !important;
+    }
+}

@@ -1,0 +1,24 @@
+.homePageWrapper{
+    top: 0;
+    right: 0;
+    position: absolute;
+    width: 68%;
+    background: url("./img/banner_bg.png") top center no-repeat;
+    background-size: cover;
+    height: 45vh;
+    z-index: -5;
+}
+@media screen and (max-width: 1201px){
+    .homePageWrapper{
+        top: 0;
+        right: 0;
+        position: absolute;
+        width: 75%;
+        height: 55vh;
+    }
+}
+@media screen and (max-width: 993px){
+    .homePageWrapper{
+        display: none;
+    }
+}

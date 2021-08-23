@@ -15,7 +15,7 @@ const Header = () => {
     }, []);
 
     const onScroll = (e) => {
-        if (e.target.documentElement.scrollTop > 250) {
+        if (e.target.documentElement.scrollTop > 200) {
             setActionScroll(true);
         } else {
             setActionScroll(false);

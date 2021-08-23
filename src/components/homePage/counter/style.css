@@ -1,0 +1,60 @@
+.counterWrapper{
+    padding: 180px 0;
+}
+.counterWrapper .counterBox{
+    width: 100%;
+    height: auto;
+    padding: 73px 0 73px;
+    background-image: -webkit-linear-gradient(0deg,#ee390f 0%,#f9b700 100%);
+}
+.counterWrapper .counterBox{
+    text-align: center;
+}
+.counterWrapper .counterBox .count {
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+}
+.counterWrapper .counterBox .border{
+    width: 20%;
+    position: relative;
+    right: 50%;
+    transform: translateX(50%);
+}
+.counterWrapper .counterBox .text h4{
+    color: #fff !important;
+    font-size: 24px !important;
+    font-weight: 600 !important;
+    margin-top: 25px !important;
+}
+
+@media screen and (max-width: 1200px){
+    .counterWrapper{
+        padding: 50px 0;
+    }
+    .counterWrapper .counterBox .count {
+        font-size: 40px;
+        margin-bottom: -5px;
+    }
+    .counterWrapper .counterBox .text h4{
+        font-size: 20px !important;
+        margin-top: 10px !important;
+    }
+    .counterWrapper .counterBox .students,.counterWrapper .counterBox .teacher{
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .counterWrapper .counterBox .onStudents{
+        margin-top: 30px;
+    }
+    .counterWrapper .counterBox .count {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+    .counterWrapper .counterBox .text h4{
+        font-size: 17px !important;
+        margin-top: 15px !important;
+    }
+}

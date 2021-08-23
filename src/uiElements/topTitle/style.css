@@ -1,0 +1,20 @@
+.topTitleUIE h5{
+    color: rgb(85, 97, 114);
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: relative;
+    margin-bottom: 10px;
+}
+.topTitleUIE h5:after{
+    content: "";
+    position: absolute;
+    top: 53%;
+    right: 65px;
+    width: 70px;
+    height: 2px;
+    background:rgb(255, 102, 59);;
+}
+.topTitleUIE h5 a{
+    text-decoration: none;
+    color: rgb(85, 97, 114);
+}

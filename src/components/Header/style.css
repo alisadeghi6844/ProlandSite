@@ -3,15 +3,11 @@
     right: 0;
     width: 100%;
     height: auto;
-    position: absolute;
+    position: fixed;
+    z-index: 9999;
     transition: all 0.5s;
 }
 #header.actionScroll{
-    top: 0;
-    right: 0;
-    width: 100%;
-    height: auto;
-    position: fixed;
     box-shadow: 0 10px 15px rgba(0, 0, 0,0.05);
     z-index: 9999;
     background: #fff;

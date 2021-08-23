@@ -79,11 +79,17 @@
 }
 
 @media screen and (max-width: 1200px) {
+    .featureWrapper {
+        padding: 50px 0 50px;
+    }
     .featureWrapper .featureBox{
         margin-top: 25px;
     }
     .featureWrapper .aboutUs{
         margin-top: 25px;
+    }
+    .featureWrapper .aboutUs h2 {
+        font-size: 35px;
     }
 }
 @media screen and (max-width: 992px) {
@@ -118,5 +124,10 @@
     }
     .featureWrapper .aboutUs .button button a{
         font-size: 0.9rem !important;
+    }
+}
+@media screen and (max-width: 550px) {
+    .featureWrapper .aboutUs h2 {
+        font-size: 28px;
     }
 }

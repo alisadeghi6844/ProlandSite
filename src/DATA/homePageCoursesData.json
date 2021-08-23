@@ -1,0 +1,38 @@
+[
+  {
+    "img": "./img/homePage/html5-css3-min.png",
+    "title": "HTML & CSS",
+    "name": "دوره طراحی وب",
+    "price": "رایگان",
+    "description": "آموزش طراحی وب با HTML و CSS از صفر تا صد به همراه چندین پروژه عملی",
+    "programmerIMG": "./img/homePage/xauthor_3.png.pagespeed.ic.58-OULcknA.webp" ,
+    "nameProgrammer": "علی صادقی",
+    "star": 4.8,
+    "id": 1,
+    "bgColor": "#f7b287"
+  },
+  {
+    "img": "./img/homePage/Javascript-min.png",
+    "title": "Javascript",
+    "name": "آموزش جاوااسکریپت",
+    "price": 150000,
+    "description": "آموزش جاوااسکریپت برای طراحان وب به همراه چندین پروژه عملی",
+    "programmerIMG": "./img/homePage/xauthor_3.png.pagespeed.ic.58-OULcknA.webp" ,
+    "nameProgrammer": "علی صادقی",
+    "star": 4.5,
+    "id": 2,
+    "bgColor": "#ffe066"
+  },
+  {
+    "img": "./img/homePage/pngwing.com.png",
+    "title": "ReactJS",
+    "name": "آموزش کتابخانه ReactJS",
+    "price": 250000,
+    "description": "آموزش ReactJS برای طراحان وب به همراه چندین پروژه عملی",
+    "programmerIMG": "./img/homePage/xauthor_3.png.pagespeed.ic.58-OULcknA.webp" ,
+    "nameProgrammer": "علی صادقی",
+    "star": 4.3,
+    "id": 3,
+    "bgColor": "#cdf3fe"
+  }
+]

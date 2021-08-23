@@ -28,7 +28,7 @@ const FeatureUs = () => {
                         </div>
                         <div className="col-xl-3 col-sm-6 order-xl-2 order-sm-3 order-3">
                             <ScrollAnimation animateIn='fadeIn'
-                                             delay={400}>
+                                             delay={150}>
                             <div className="featureBox teacher">
                                 <div className="icon">
                                     <span>
@@ -45,7 +45,7 @@ const FeatureUs = () => {
                         </div>
                         <div className="col-xl-3 col-sm-6 order-xl-3 order-sm-4 order-4">
                             <ScrollAnimation animateIn='fadeIn'
-                                              delay={800}>
+                                              delay={300}>
                             <div className="featureBox featureBetter">
                                 <div className="icon">
                                     <span>
@@ -62,7 +62,7 @@ const FeatureUs = () => {
                         </div>
                         <div className="col-xl-3 col-sm-6 order-xl-4 order-sm-2 order-1">
                             <ScrollAnimation animateIn='fadeIn'
-                                              delay={1200}>
+                                              delay={450}>
                             <div className="aboutUs">
                                 <div className="text">
                                     <h2>
@@ -72,7 +72,7 @@ const FeatureUs = () => {
                                         کمترین هزینه برنامه نویسی را یاد بگیرید .</p>
                                 </div>
                                 <div className="button">
-                                    <ButtonHover toPath="/readMore">بیشتر بخوانید</ButtonHover>
+                                    <ButtonHover toPath="/readMore/featureUs">بیشتر بخوانید</ButtonHover>
                                 </div>
                             </div>
                             </ScrollAnimation>

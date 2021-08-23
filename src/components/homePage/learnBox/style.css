@@ -1,0 +1,127 @@
+.learnBoxWrapper{
+    padding: 100px 10px;
+}
+.learnBoxWrapper .title{
+    padding: 70px 10px 0;
+}
+
+.learnBoxWrapper .bannerLearning{
+    background-image: url('./img/xlearning_img_bg.png.pagespeed.ic.Li34xkDVOv-min.png');
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+.learnBoxWrapper .title h2{
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    margin-bottom: 25px;
+}
+.learnBoxWrapper .title p,.learnBoxWrapper .title ul li{
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #888888;
+}
+.learnBoxWrapper .title ul li{
+    margin-top: 20px;
+    list-style: none;
+}
+.learnBoxWrapper .title ul li i{
+    font-size: 1.1rem;
+    margin-left: 10px;
+}
+.learnBoxWrapper .title .button{
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .learnBoxWrapper{
+        padding: 50px 10px;
+    }
+    .learnBoxWrapper .title h2{
+        font-size: 35px;
+    }
+    .learnBoxWrapper .bannerLearning img{
+        margin-top: 30px !important;
+    }
+}
+@media screen and (max-width: 992px) {
+    .learnBoxWrapper{
+        padding: 50px 10px;
+    }
+    .learnBoxWrapper .bannerLearning img{
+        margin-top: 0 !important;
+    }
+    .learnBoxWrapper .bannerLearning{
+        position: relative;
+    }
+    .learnBoxWrapper .title{
+        margin-top: 10px;
+    }
+    .learnBoxWrapper .title h2{
+        font-size: 32px;
+    }
+    .learnBoxWrapper .title .button{
+        margin-top: 40px;
+    }
+    .learnBoxWrapper .title ul li{
+        margin-top: 15px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .learnBoxWrapper .title h2{
+        font-size: 28px;
+    }
+
+    .learnBoxWrapper .title p{
+        font-size: 0.93rem;
+    }
+
+    .learnBoxWrapper .title ul li{
+        font-size: 0.95rem;
+    }
+    .learnBoxWrapper .title ul li i{
+        font-size: 1rem;
+    }
+    .learnBoxWrapper .title .button button{
+        padding: 8px 22px !important;
+    }
+
+    .learnBoxWrapper .title .button button a{
+        font-size: 0.9rem !important;
+    }
+}
+@media screen and (max-width: 400px) {
+    .learnBoxWrapper{
+        padding: 50px 0;
+    }
+    .learnBoxWrapper .title{
+        margin-top: 0;
+        padding: 60px 0;
+    }
+    .learnBoxWrapper .title h5{
+        font-size: 1rem !important;
+    }
+    .learnBoxWrapper .title h2{
+        font-size: 23px;
+        line-height: 2.3rem;
+    }
+    .learnBoxWrapper .title p{
+        font-size: 0.89rem;
+    }
+
+    .learnBoxWrapper .title ul li{
+        font-size: 0.9rem;
+    }
+    .learnBoxWrapper .title ul li i{
+        font-size: 0.98rem;
+    }
+    .learnBoxWrapper .title .button button{
+        padding: 6px 18px !important;
+    }
+
+    .learnBoxWrapper .title .button button a{
+        font-size: 0.88rem !important;
+    }
+}

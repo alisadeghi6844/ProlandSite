@@ -3,7 +3,7 @@ import Layout from "../components/layout/layoute";
 import HomePage from "../pages/homePage/HomePage";
 import {Route, Switch} from "react-router";
 
-const TopTeach = () => {
+const Proland = () => {
     return (
         <div>
             <Layout>
@@ -15,4 +15,4 @@ const TopTeach = () => {
     );
 };
 
-export default TopTeach;
+export default Proland;

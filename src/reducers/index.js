@@ -4,5 +4,5 @@ import {homePageCoursesReducer} from "./homePageCourses";
 
 export const reducers = combineReducers({
     topNav: topNavReducer,
-    homePageCourses: homePageCoursesReducer
+    homePageCourses: homePageCoursesReducer,
 });

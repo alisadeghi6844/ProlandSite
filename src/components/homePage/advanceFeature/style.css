@@ -1,0 +1,140 @@
+.advanceFeatureWrapper {
+    padding: 160px 0 110px;
+}
+
+.advanceFeatureWrapper .text {
+    margin-top: 30px;
+}
+
+.advanceFeatureWrapper .text .title h5:after {
+   right: 155px;
+}
+.advanceFeatureWrapper .text .title h2{
+    font-size: 42px;
+    font-weight: 600;
+    line-height: 1.4;
+    margin-bottom: 35px;
+    position: relative;
+    margin-top: 15px;
+}
+.advanceFeatureWrapper .text .description{
+    font-size: 16px;
+    margin-bottom: 60px;
+    color: #888;
+}
+
+.advanceFeatureWrapper .text .feature .icon{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.advanceFeatureWrapper .text .feature .icon i{
+    font-size: 1.4rem;
+}
+.advanceFeatureWrapper .text .feature .interest .icon{
+    background: #fff0e0;
+}
+.advanceFeatureWrapper .text .feature .need .icon{
+    background: #fdeae5;
+}
+.advanceFeatureWrapper .text .feature .title h4{
+    font-size: 20px !important;
+    font-weight: 600 !important;
+    margin-bottom:-10px !important;
+}
+.advanceFeatureWrapper .text .feature .text p{
+    font-size: 16px;
+    margin-bottom: 60px;
+    color: #888;
+}
+.advanceFeatureWrapper .text .description p a{
+    text-decoration: none;
+    color: #f37a07;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+.advanceFeatureWrapper .text .description p a:hover{
+    color: #ee3a0f;
+}
+@media screen and (max-width: 1200px) {
+    .advanceFeatureWrapper .img img {
+        margin-top: 60px;
+    }
+    .advanceFeatureWrapper .text .title h2{
+        font-size: 35px;
+    }
+
+}
+
+@media screen and (max-width: 992px) {
+    .advanceFeatureWrapper {
+        padding: 80px 0;
+        text-align: center;
+    }
+
+    .advanceFeatureWrapper .text {
+        margin-top: 50px;
+        text-align: right;
+    }
+    .advanceFeatureWrapper .text .title h5 a{
+        font-size: 1rem;
+    }
+    .advanceFeatureWrapper .text .title h5:after {
+        right: 140px;
+    }
+    .advanceFeatureWrapper .text .title h2{
+        font-size: 32px;
+        margin-top: -5px;
+        margin-bottom: 30px;
+    }
+    .advanceFeatureWrapper .text .feature .title h4{
+        font-size: 18px !important;
+        margin-bottom:-30px !important;
+    }
+    .advanceFeatureWrapper .text .feature .text p{
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+    .advanceFeatureWrapper .text .description{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .advanceFeatureWrapper .text .title h2{
+        font-size: 28px;
+    }
+    .advanceFeatureWrapper .text .title h5 a{
+        font-size: 0.95rem;
+    }
+    .advanceFeatureWrapper .text .description{
+        font-size: 0.93rem;
+        margin-bottom: 60px;
+        line-height: 1.6rem;
+    }
+    .advanceFeatureWrapper .text .feature .interest{
+        margin-bottom: 40px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .advanceFeatureWrapper .text .title h2{
+        font-size: 23px;
+        line-height: 2.3rem;
+    }
+    .advanceFeatureWrapper .text .description{
+        font-size: 0.89rem;
+    }
+    .advanceFeatureWrapper .text .feature .icon{
+        width: 45px;
+        height: 45px;
+    }
+    .advanceFeatureWrapper .text .feature .icon i{
+        font-size: 1rem;
+    }
+    .advanceFeatureWrapper .text .feature .text p{
+        font-size: 0.87rem;
+    }
+}

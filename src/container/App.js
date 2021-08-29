@@ -1,12 +1,12 @@
 import React from 'react';
-import TopTeach from "./TopTeach";
+import Proland from "./Proland";
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 const App = () => {
     return (
         <div>
             <ParallaxProvider>
-            <TopTeach/>
+            <Proland/>
             </ParallaxProvider>
         </div>
     );

@@ -1,0 +1,68 @@
+.studentsSliderWrapper .title{
+    text-align: center;
+    margin-bottom: 90px;
+}
+.studentsSliderWrapper .title p{
+    color: #556172;
+    font-weight: 600;
+    line-height: 11px;
+    font-size: 1.1rem;
+}
+.studentsSliderWrapper .title h2{
+    position: relative;
+    font-size: 2.7rem;
+    line-height: 3.5rem;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: #0c2e60;
+}
+.studentsSliderWrapper .title h2::after {
+    content: "";
+    position: absolute;
+    width: 5%;
+    bottom: -15px;
+    height: 2px;
+    background-color: #ff663b;
+    right: 50%;
+    transform: translateX(50%);
+}
+.studentsSliderWrapper .slider .item{
+    margin-bottom: 30px;
+}
+.studentsSliderWrapper .slider .item .textStudent{
+    margin-left: 30px;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow:  -12px 12px 24px #e2e2e2,
+    0 -12px 24px #fefefe;
+    position: relative;
+    z-index: 1;
+    margin-top: 15px;
+    margin-right: 8px;
+}
+.studentsSliderWrapper .slider .item .textStudent p{
+    line-height: 1.929;
+    font-size: 1rem;
+    margin-bottom: 0;
+    color: #888 !important;
+}
+.studentsSliderWrapper .slider .item .textStudent h4{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.studentsSliderWrapper .slider .item .textStudent h5{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #888 !important;
+}
+.studentsSliderWrapper .slider .slick-dots li button::before{
+    font-size: 10px;
+    transition: all 0.4s;
+}
+.studentsSliderWrapper .slider .slick-dots li.slick-active button::before{
+    color: #ff663b;
+    font-size: 13px;
+}

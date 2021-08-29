@@ -1,8 +1,9 @@
-.specialCoursesWrapper .title{
+.specialCoursesWrapper .title {
     text-align: center;
     margin-bottom: 80px;
 }
-.specialCoursesWrapper .title h2{
+
+.specialCoursesWrapper .title h2 {
     position: relative;
     font-size: 2.7rem;
     line-height: 3.5rem;
@@ -10,7 +11,8 @@
     text-decoration: none;
     color: #0c2e60;
 }
-.specialCoursesWrapper .title p a{
+
+.specialCoursesWrapper .title p a {
     color: #556172;
     font-weight: 500;
     display: block;
@@ -19,20 +21,23 @@
     margin-bottom: 8px;
     text-decoration: none;
 }
-.specialCoursesWrapper .title h2::after{
+
+.specialCoursesWrapper .title h2::after {
     content: "";
     position: absolute;
     width: 5%;
-    bottom: -18px;
+    bottom: -15px;
     height: 2px;
     background-color: #ff663b;
     right: 50%;
     transform: translateX(50%);
 }
-.specialCoursesWrapper .courses .courseBox{
+
+.specialCoursesWrapper .courses .courseBox {
     padding: 0 5px;
 }
-.specialCoursesWrapper .courses .courseBox .img{
+
+.specialCoursesWrapper .courses .courseBox .img {
     width: 100%;
     position: relative;
     border-radius: 10px 10px 0 0;
@@ -40,39 +45,45 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 15px;
+    overflow: hidden;
 }
-.specialCoursesWrapper .courses .courseBox .img img{
+
+.specialCoursesWrapper .courses .courseBox .img img {
     filter: drop-shadow(22px 10px 8px #555) !important;
     transition: all 0.3s;
 }
-.specialCoursesWrapper .courses .courseBox .img:hover img{
+
+.specialCoursesWrapper .courses .courseBox .img:hover img {
     transform: scale(1.08);
     filter: drop-shadow(28px 13px 10px #555) !important;
 }
-.specialCoursesWrapper .courses .courseBox .text{
+
+.specialCoursesWrapper .courses .courseBox .text {
     padding: 35px 35px 40px;
     border: 1px solid #edeff2;
 }
-.specialCoursesWrapper .courses .text .titleTop{
+
+.specialCoursesWrapper .courses .text .titleTop {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 25px;
 }
-.specialCoursesWrapper .courses .text .titleTop p{
+
+.specialCoursesWrapper .courses .text .titleTop p {
     display: flex;
     color: #ff663b;
     font-weight: 600;
     font-size: 1.2rem;
     margin: 0 !important;
 }
-.specialCoursesWrapper .courses .text .titleTop p span{
+
+.specialCoursesWrapper .courses .text .titleTop p span {
     margin-right: 5px;
 }
-.specialCoursesWrapper .courses .text .titleTop button{
 
-}
-.specialCoursesWrapper .courses .text .titleTop a{
+.specialCoursesWrapper .courses .text .titleTop a {
     padding: 3.5px 21px;
     background: #ff663b;
     display: inline-block;
@@ -83,10 +94,17 @@
     text-decoration: none;
     border-radius: 5px;
 }
-.specialCoursesWrapper .courses .text .titleTop a:hover{
+
+.specialCoursesWrapper .courses .text .titleTop a span {
+    display: block;
+    margin-top: 3px;
+}
+
+.specialCoursesWrapper .courses .text .titleTop a:hover {
     background: rgba(255, 102, 59, 0.8);
 }
-.specialCoursesWrapper .courses .text h3 a{
+
+.specialCoursesWrapper .courses .text h3 a {
     font-size: 20px;
     font-weight: 600;
     display: block;
@@ -94,29 +112,188 @@
     margin-bottom: 10px;
     transition: .4s;
     text-decoration: none;
-    color:#0c2e60 ;
+    color: #0c2e60;
 }
-.specialCoursesWrapper .courses .text p{
+.specialCoursesWrapper .courses .bottomText .numberStar{
+    line-height: 1.929;
+    font-size: 15px;
+    margin-bottom: 0;
+    color: #888;
+}
+.specialCoursesWrapper .courses .text p {
     line-height: 1.7;
     font-size: 1rem;
     margin-bottom: 25px;
     color: #888;
 }
-.specialCoursesWrapper .courses .bottomText{
+
+.specialCoursesWrapper .courses .bottomText {
     display: flex;
     justify-content: space-between;
     padding-top: 25px;
     margin-top: 23px;
     border-top: 1px solid #edeff2;
 }
-.specialCoursesWrapper .courses .bottomText .programmer{
+
+.specialCoursesWrapper .courses .bottomText .programmer {
     display: flex;
 }
-.specialCoursesWrapper .courses .bottomText .textProgrammer p{
+
+.specialCoursesWrapper .courses .bottomText .textProgrammer p {
     line-height: 1.929;
     font-size: 14px;
     margin-bottom: 0;
     margin-left: 15px;
     margin-top: 3px;
     color: #556172;
+}
+
+@media screen and (max-width: 1200px) {
+    .specialCoursesWrapper .title h2{
+        font-size: 35px;
+    }
+    .specialCoursesWrapper .courses .courseBox {
+        padding: 0;
+    }
+
+    .specialCoursesWrapper .courses .courseBox .text {
+        padding: 20px 20px 25px;
+    }
+
+    .specialCoursesWrapper {
+        padding-top: 60px
+    }
+
+    .specialCoursesWrapper .title {
+        margin-bottom: 50px;
+    }
+
+    .specialCoursesWrapper .title h2 {
+        margin-bottom: 20px;
+    }
+
+    .specialCoursesWrapper .title p a {
+        margin-bottom: 0;
+    }
+
+    .specialCoursesWrapper .title h2::after {
+        width: 10%;
+        bottom: -12px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .specialCoursesWrapper .title h2{
+        font-size: 32px;
+    }
+    .specialCoursesWrapper .title p a {
+        margin-bottom:-10px;
+    }
+    .specialCoursesWrapper .courses .courseBox:last-child {
+        margin-top: 30px;
+    }
+
+    .specialCoursesWrapper .title {
+        margin-bottom: 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .specialCoursesWrapper .courses .container {
+    }
+
+    .specialCoursesWrapper .courses .courseBox .text {
+        min-height: 320px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .specialCoursesWrapper .courses .courseBox .img{
+        height: 280px;
+    }
+    .specialCoursesWrapper .courses .courseBox .text {
+        min-height: 290px;
+    }
+    .specialCoursesWrapper .courses .text .titleTop p {
+        font-size: 1rem;
+    }
+    .specialCoursesWrapper .courses .text .titleTop a {
+        padding:3px 18px;
+        font-size: 0.95rem;
+    }
+    .specialCoursesWrapper .courses .courseBox .text {
+        padding: 15px 15px 15px;
+    }
+    .specialCoursesWrapper .courses .text h3 a {
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    .specialCoursesWrapper .courses .text p {
+        line-height: 1.4;
+        font-size: 0.9rem;
+        margin-bottom: 25px;
+        margin-top: 15px;
+    }
+    .specialCoursesWrapper .courses .bottomText {
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+    .specialCoursesWrapper .courses .bottomText .textProgrammer p {
+        line-height: 1.5;
+        font-size: 12px;
+        margin-left: 5px;
+    }
+    .specialCoursesWrapper .courses .bottomText .textProgrammer h6{
+        font-size: 14px !important;
+    }
+    .specialCoursesWrapper .courses .bottomText .numberStar{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .specialCoursesWrapper .title h2{
+        font-size: 28px;
+    }
+    .specialCoursesWrapper .courses .courseBox .img{
+       padding:50px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .specialCoursesWrapper .title h2{
+        font-size: 23px;
+        line-height: 2.3rem;
+    }
+    .specialCoursesWrapper .title h2::after {
+        width: 20%;
+        bottom: -12px;
+    }
+    .specialCoursesWrapper .courses .courseBox .img{
+        padding:10px;
+    }
+}
+@media screen and (max-width: 300px) {
+    .specialCoursesWrapper .courses .text .titleTop p {
+        font-size: 0.9rem;
+    }
+    .specialCoursesWrapper .courses .text .titleTop a {
+        padding:2px 15px;
+        font-size: 0.85rem;
+    }
+    .specialCoursesWrapper .courses .courseBox .img{
+        height: 230px;
+    }
+    .specialCoursesWrapper .courses .text h3 a {
+        font-size: 17px;
+    }
+    .specialCoursesWrapper .courses .text p {
+        line-height: 1.6;
+        font-size: 0.84rem;
+    }
+    .specialCoursesWrapper .courses .bottomText {
+       flex-direction: column;
+    }
+    .specialCoursesWrapper .courses .bottomText .programmer {
+        margin-top: 20px;
+        justify-content: space-between;
+    }
 }

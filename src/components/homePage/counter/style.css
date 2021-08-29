@@ -40,11 +40,13 @@
         font-size: 20px !important;
         margin-top: 10px !important;
     }
+
+}
+@media screen and (max-width: 992px){
     .counterWrapper .counterBox .students,.counterWrapper .counterBox .teacher{
         margin-top: 30px;
     }
 }
-
 @media screen and (max-width: 576px){
     .counterWrapper .counterBox .onStudents{
         margin-top: 30px;
@@ -56,5 +58,10 @@
     .counterWrapper .counterBox .text h4{
         font-size: 17px !important;
         margin-top: 15px !important;
+    }
+}
+@media screen and (max-width: 400px){
+    .counterWrapper{
+        padding:0 0 50px;
     }
 }

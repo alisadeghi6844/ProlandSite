@@ -1,6 +1,7 @@
 import React from 'react';
 import CountUp from 'react-countup';
 import "./style.css";
+import "./darkMode.css";
 
 const Counter = () => {
     return (

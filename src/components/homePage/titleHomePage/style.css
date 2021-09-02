@@ -43,7 +43,7 @@
     transition: all 0.8s !important;
     border: 1px solid #0c2e60;
 }
-.homePageTitleWrapper .titleBox .buttons button.start a{
+.homePageTitleWrapper .titleBox .buttons  a button.start span{
     color: #0c2e60 !important;
 }
 
@@ -53,7 +53,7 @@
     background-position: right !important;
     border: 1px solid #fff;
 }
-.homePageTitleWrapper .titleBox .buttons button.start:hover a{
+.homePageTitleWrapper .titleBox .buttons  a button.start:hover span{
     color: #fff !important;
 }
 
@@ -157,7 +157,7 @@
     .homePageTitleWrapper .titleBox .buttons button.view{
         margin-top: 18px;
     }
-    .homePageTitleWrapper .titleBox .buttons button a{
+    .homePageTitleWrapper .titleBox .buttons a.link button span {
         font-size: 0.9rem !important;
     }
     .homePageTitleWrapper .title .titleBox .buttons{

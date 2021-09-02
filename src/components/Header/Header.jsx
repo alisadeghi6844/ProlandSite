@@ -1,9 +1,11 @@
 import React, {Fragment, useEffect, useState} from 'react';
 import {useSelector} from "react-redux";
 import {NavLink} from "react-router-dom";
+import DarkMode from "../darkMode/DarkMode";
 import Image from "../../uiElements/image/Image";
 import ButtonHover from "../../uiElements/ButtonHover/ButtonHover";
 import "./style.css";
+import "./darkMode.css";
 
 const Header = () => {
     const [actionScroll, setActionScroll] = useState(false);
@@ -83,6 +85,10 @@ const Header = () => {
                                     <NavLink to="/">
                                         <Image src={'./img/logo/logo-min.png'} alt={'topTeach logo'}/>
                                     </NavLink>
+
+
+                                    <DarkMode/>
+
                                 </div>
                             </div>
                         </div>

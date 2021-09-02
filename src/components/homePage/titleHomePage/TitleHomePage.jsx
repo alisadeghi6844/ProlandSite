@@ -1,9 +1,10 @@
 import React, {Fragment} from 'react';
 import {Parallax} from 'react-scroll-parallax';
+import Image from "../../../uiElements/image/Image";
 import ScrollAnimation from 'react-animate-on-scroll';
 import ButtonHover from "../../../uiElements/ButtonHover/ButtonHover";
 import "./style.css";
-import Image from "../../../uiElements/image/Image";
+import "./darkMode.css";
 
 
 const TitleHomePage = () => {

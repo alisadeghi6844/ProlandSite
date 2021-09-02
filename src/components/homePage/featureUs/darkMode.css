@@ -1,0 +1,23 @@
+body.dark-mode .featureWrapper .featureBox {
+    border: 1px solid #525252;
+    background: #414141;
+    box-shadow:  5px 5px 12px #212121,
+    -5px -5px 12px #313131;
+    transition: all 0.4s;
+}
+body.dark-mode .featureWrapper .featureBox:hover{
+    transform: translateY(-10px);
+}
+body.dark-mode .featureWrapper .featureBox .icon span {
+    background: #828282;
+}
+body.dark-mode .featureWrapper .featureBox:hover .icon span {
+    background: linear-gradient(to right, #ee390f 0%, #f9b700 50%, #ee390f 100%);
+    background-size: 200%;
+}
+body.dark-mode .featureWrapper .featureBox .text p {
+    color: #dedede;
+}
+body.dark-mode .featureWrapper .aboutUs p {
+    color: #dedede;
+}

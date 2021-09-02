@@ -1,9 +1,10 @@
 import React, {Fragment} from 'react';
 import {Parallax} from "react-scroll-parallax";
 import Image from "../../../uiElements/image/Image";
-import "./style.css";
-import ButtonHover from "../../../uiElements/ButtonHover/ButtonHover";
 import TopTitle from "../../../uiElements/topTitle/TopTitle";
+import ButtonHover from "../../../uiElements/ButtonHover/ButtonHover";
+import "./style.css";
+import "./darkMode.css";
 
 const LearnBox = () => {
     return (
@@ -42,7 +43,7 @@ const LearnBox = () => {
                             </div>
                             <div className="d-lg-none d-block">
                                 <div className="bannerLearning">
-                                        <Image src={`./img/homePage/learning_img-min.png`} alt="یادگیری برنامه نویسی"/>
+                                    <Image src={`./img/homePage/learning_img-min.png`} alt="یادگیری برنامه نویسی"/>
                                 </div>
                             </div>
                         </div>

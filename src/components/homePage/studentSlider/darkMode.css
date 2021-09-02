@@ -1,0 +1,16 @@
+body.dark-mode .studentsSliderWrapper .title p {
+    color: #fff;
+}
+
+body.dark-mode .studentsSliderWrapper .slider .item .textStudent {
+    background: #424242;
+    box-shadow: 5px 5px 12px #212121,
+    -5px -5px 12px #313131;
+}
+
+body.dark-mode .studentsSliderWrapper .slider .item .textStudent p, body.dark-mode .studentsSliderWrapper .slider .item .textStudent h5 a {
+    color: #d2d2d2 !important;
+}
+body.dark-mode .studentsSliderWrapper .slider .item .textStudent h5 a:hover{
+    color: cornflowerblue !important;
+}

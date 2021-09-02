@@ -8,6 +8,9 @@
     line-height: 11px;
     font-size: 1.1rem;
 }
+.studentsSliderWrapper .slider button.slick-arrow{
+    display: none !important;
+}
 .studentsSliderWrapper .title h2{
     position: relative;
     font-size: 2.7rem;
@@ -28,6 +31,12 @@
 }
 .studentsSliderWrapper .slider .item{
     margin-bottom: 30px;
+}
+.studentsSliderWrapper .slider:hover{
+    cursor: grab;
+}
+.studentsSliderWrapper .slider:active{
+    cursor: grabbing;
 }
 .studentsSliderWrapper .slider .item .textStudent{
     margin-left: 30px;
@@ -53,10 +62,15 @@
     margin-bottom: 5px;
 }
 
-.studentsSliderWrapper .slider .item .textStudent h5{
+.studentsSliderWrapper .slider .item .textStudent h5 a{
     font-size: 15px;
     margin-top: 10px;
     color: #888 !important;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+.studentsSliderWrapper .slider .item .textStudent h5 a:hover{
+   color: cornflowerblue !important;
 }
 .studentsSliderWrapper .slider .slick-dots li button::before{
     font-size: 10px;
@@ -65,4 +79,104 @@
 .studentsSliderWrapper .slider .slick-dots li.slick-active button::before{
     color: #ff663b;
     font-size: 13px;
+}
+
+@media screen and (max-width: 1200px) {
+    .studentsSliderWrapper .title h2 {
+        font-size: 35px;
+    }
+    .studentsSliderWrapper .title{
+        margin-bottom: 70px;
+    }
+    .studentsSliderWrapper .title h2::after {
+        width:8%;
+        bottom: -10px;
+    }
+    .studentsSliderWrapper .title p{
+        margin-bottom: 10px;
+    }
+    .studentsSliderWrapper .slider .item .textStudent{
+        margin-left: 0;
+        padding: 35px;
+        margin-top: 25px;
+        margin-right:5px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .studentsSliderWrapper .title h2 {
+        font-size: 32px;
+    }
+    .studentsSliderWrapper{
+        padding-top: 60px;
+    }
+    .studentsSliderWrapper .title{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .studentsSliderWrapper{
+        padding-top: 30px;
+    }
+    .studentsSliderWrapper .slider .item .textStudent{
+        padding: 15px;
+    }
+    .studentsSliderWrapper .slider .item .textStudent p{
+        line-height: 1.8;
+        font-size: 0.89rem;
+    }
+    .studentsSliderWrapper .slider .item .textStudent h4{
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 0;
+    }
+
+    .studentsSliderWrapper .slider .item .textStudent h5 a{
+        font-size: 13px;
+    }
+    .studentsSliderWrapper .slick-slider.slick-initialized{
+        width: 95% !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .studentsSliderWrapper .slider .item .img{
+        text-align: center;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .studentsSliderWrapper .title{
+        margin-bottom: -20px;
+    }
+    .studentsSliderWrapper .title h2::after {
+        width:14%;
+        bottom: -10px;
+    }
+    .studentsSliderWrapper .slider .item .textStudent{
+        box-shadow:none;
+        padding: 5px;
+    }
+    .studentsSliderWrapper .slider .slick-dots li button::before{
+        font-size: 8px;
+    }
+    .studentsSliderWrapper .slider .slick-dots li.slick-active button::before{
+        font-size: 10px;
+    }
+    .studentsSliderWrapper .slider .item{
+        margin-bottom: 18px;
+    }
+
+}
+@media screen and (max-width: 568px) {
+    .studentsSliderWrapper .title h2{
+        font-size: 28px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .studentsSliderWrapper .title h2{
+        font-size: 23px;
+        line-height: 2.3rem;
+    }
+    .studentsSliderWrapper .title h2::after {
+        width: 20%;
+        bottom: -12px;
+    }
 }

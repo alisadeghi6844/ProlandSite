@@ -1,17 +1,21 @@
 import React, {Fragment} from 'react';
+import {Helmet} from "react-helmet";
 import LazyLoad from 'react-lazyload';
 import Counter from "../../components/homePage/counter/Counter";
 import LearnBox from "../../components/homePage/learnBox/LearnBox";
 import FeatureUs from "../../components/homePage/featureUs/FeatureUs";
 import TitleHomePage from "../../components/homePage/titleHomePage/TitleHomePage";
+import StudentsSlider from "../../components/homePage/studentSlider/StudentsSlider";
 import AdvanceFeature from "../../components/homePage/advanceFeature/AdvanceFeature";
 import SpecialCourses from "../../components/homePage/specialCourses/SpecialCourses";
 import "./style.css";
-import StudentsSlider from "../../components/homePage/studentSlider/StudentsSlider";
 
 const HomePage = () => {
     return (
         <Fragment>
+            <Helmet>
+                <title>proland | آموزش برنامه نویسی</title>
+            </Helmet>
             <main>
                 <div className="homePageWrapper"/>
 

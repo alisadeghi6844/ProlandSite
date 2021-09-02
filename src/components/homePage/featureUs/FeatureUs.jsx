@@ -2,6 +2,7 @@ import React, {Fragment} from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import ButtonHover from "../../../uiElements/ButtonHover/ButtonHover";
 import "./style.css";
+import "./darkMode.css";
 
 const FeatureUs = () => {
     return (

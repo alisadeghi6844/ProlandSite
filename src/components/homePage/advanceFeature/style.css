@@ -22,6 +22,9 @@
     margin-bottom: 60px;
     color: #888;
 }
+body.dark-mode .advanceFeatureWrapper .text .description{
+    color: #d2d2d2;
+}
 
 .advanceFeatureWrapper .text .feature .icon{
     width: 55px;
@@ -32,8 +35,14 @@
     align-items: center;
     margin-bottom: 20px;
 }
+body.dark-mode .advanceFeatureWrapper .text .feature .icon{
+    background: #666;
+}
 .advanceFeatureWrapper .text .feature .icon i{
     font-size: 1.4rem;
+}
+body.dark-mode .advanceFeatureWrapper .text .feature .icon i{
+    color: #fff;
 }
 .advanceFeatureWrapper .text .feature .interest .icon{
     background: #fff0e0;
@@ -50,6 +59,9 @@
     font-size: 16px;
     margin-bottom: 60px;
     color: #888;
+}
+body.dark-mode .advanceFeatureWrapper .text .feature .text p{
+    color: #d2d2d2;
 }
 .advanceFeatureWrapper .text .description p a{
     text-decoration: none;

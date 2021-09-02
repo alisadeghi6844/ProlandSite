@@ -20,6 +20,7 @@
     line-height: 11px;
     margin-bottom: 8px;
     text-decoration: none;
+    font-size: 1.1rem;
 }
 
 .specialCoursesWrapper .title h2::after {
@@ -33,131 +34,12 @@
     transform: translateX(50%);
 }
 
-.specialCoursesWrapper .courses .courseBox {
-    padding: 0 5px;
-}
-
-.specialCoursesWrapper .courses .courseBox .img {
-    width: 100%;
-    position: relative;
-    border-radius: 10px 10px 0 0;
-    height: 310px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    overflow: hidden;
-}
-
-.specialCoursesWrapper .courses .courseBox .img img {
-    filter: drop-shadow(22px 10px 8px #555) !important;
-    transition: all 0.3s;
-}
-
-.specialCoursesWrapper .courses .courseBox .img:hover img {
-    transform: scale(1.08);
-    filter: drop-shadow(28px 13px 10px #555) !important;
-}
-
-.specialCoursesWrapper .courses .courseBox .text {
-    padding: 35px 35px 40px;
-    border: 1px solid #edeff2;
-}
-
-.specialCoursesWrapper .courses .text .titleTop {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom: 25px;
-}
-
-.specialCoursesWrapper .courses .text .titleTop p {
-    display: flex;
-    color: #ff663b;
-    font-weight: 600;
-    font-size: 1.2rem;
-    margin: 0 !important;
-}
-
-.specialCoursesWrapper .courses .text .titleTop p span {
-    margin-right: 5px;
-}
-
-.specialCoursesWrapper .courses .text .titleTop a {
-    padding: 3.5px 21px;
-    background: #ff663b;
-    display: inline-block;
-    border: 2px solid transparent;
-    -webkit-transition: .5s;
-    transition: .4s;
+body.dark-mode .specialCoursesWrapper .title p a{
     color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
 }
-
-.specialCoursesWrapper .courses .text .titleTop a span {
-    display: block;
-    margin-top: 3px;
-}
-
-.specialCoursesWrapper .courses .text .titleTop a:hover {
-    background: rgba(255, 102, 59, 0.8);
-}
-
-.specialCoursesWrapper .courses .text h3 a {
-    font-size: 20px;
-    font-weight: 600;
-    display: block;
-    margin-top: 25px;
-    margin-bottom: 10px;
-    transition: .4s;
-    text-decoration: none;
-    color: #0c2e60;
-}
-.specialCoursesWrapper .courses .bottomText .numberStar{
-    line-height: 1.929;
-    font-size: 15px;
-    margin-bottom: 0;
-    color: #888;
-}
-.specialCoursesWrapper .courses .text p {
-    line-height: 1.7;
-    font-size: 1rem;
-    margin-bottom: 25px;
-    color: #888;
-}
-
-.specialCoursesWrapper .courses .bottomText {
-    display: flex;
-    justify-content: space-between;
-    padding-top: 25px;
-    margin-top: 23px;
-    border-top: 1px solid #edeff2;
-}
-
-.specialCoursesWrapper .courses .bottomText .programmer {
-    display: flex;
-}
-
-.specialCoursesWrapper .courses .bottomText .textProgrammer p {
-    line-height: 1.929;
-    font-size: 14px;
-    margin-bottom: 0;
-    margin-left: 15px;
-    margin-top: 3px;
-    color: #556172;
-}
-
 @media screen and (max-width: 1200px) {
-    .specialCoursesWrapper .title h2{
+    .specialCoursesWrapper .title h2 {
         font-size: 35px;
-    }
-    .specialCoursesWrapper .courses .courseBox {
-        padding: 0;
-    }
-
-    .specialCoursesWrapper .courses .courseBox .text {
-        padding: 20px 20px 25px;
     }
 
     .specialCoursesWrapper {
@@ -189,73 +71,15 @@
     .specialCoursesWrapper .title p a {
         margin-bottom:-10px;
     }
-    .specialCoursesWrapper .courses .courseBox:last-child {
-        margin-top: 30px;
-    }
 
     .specialCoursesWrapper .title {
         margin-bottom: 40px;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .specialCoursesWrapper .courses .container {
-    }
-
-    .specialCoursesWrapper .courses .courseBox .text {
-        min-height: 320px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .specialCoursesWrapper .courses .courseBox .img{
-        height: 280px;
-    }
-    .specialCoursesWrapper .courses .courseBox .text {
-        min-height: 290px;
-    }
-    .specialCoursesWrapper .courses .text .titleTop p {
-        font-size: 1rem;
-    }
-    .specialCoursesWrapper .courses .text .titleTop a {
-        padding:3px 18px;
-        font-size: 0.95rem;
-    }
-    .specialCoursesWrapper .courses .courseBox .text {
-        padding: 15px 15px 15px;
-    }
-    .specialCoursesWrapper .courses .text h3 a {
-        font-size: 19px;
-        margin-top: 20px;
-    }
-    .specialCoursesWrapper .courses .text p {
-        line-height: 1.4;
-        font-size: 0.9rem;
-        margin-bottom: 25px;
-        margin-top: 15px;
-    }
-    .specialCoursesWrapper .courses .bottomText {
-        padding-top: 20px;
-        margin-top: 20px;
-    }
-    .specialCoursesWrapper .courses .bottomText .textProgrammer p {
-        line-height: 1.5;
-        font-size: 12px;
-        margin-left: 5px;
-    }
-    .specialCoursesWrapper .courses .bottomText .textProgrammer h6{
-        font-size: 14px !important;
-    }
-    .specialCoursesWrapper .courses .bottomText .numberStar{
-        font-size: 14px;
-    }
-}
 @media screen and (max-width: 568px) {
     .specialCoursesWrapper .title h2{
         font-size: 28px;
-    }
-    .specialCoursesWrapper .courses .courseBox .img{
-       padding:50px;
     }
 }
 @media screen and (max-width: 350px) {
@@ -266,34 +90,5 @@
     .specialCoursesWrapper .title h2::after {
         width: 20%;
         bottom: -12px;
-    }
-    .specialCoursesWrapper .courses .courseBox .img{
-        padding:10px;
-    }
-}
-@media screen and (max-width: 300px) {
-    .specialCoursesWrapper .courses .text .titleTop p {
-        font-size: 0.9rem;
-    }
-    .specialCoursesWrapper .courses .text .titleTop a {
-        padding:2px 15px;
-        font-size: 0.85rem;
-    }
-    .specialCoursesWrapper .courses .courseBox .img{
-        height: 230px;
-    }
-    .specialCoursesWrapper .courses .text h3 a {
-        font-size: 17px;
-    }
-    .specialCoursesWrapper .courses .text p {
-        line-height: 1.6;
-        font-size: 0.84rem;
-    }
-    .specialCoursesWrapper .courses .bottomText {
-       flex-direction: column;
-    }
-    .specialCoursesWrapper .courses .bottomText .programmer {
-        margin-top: 20px;
-        justify-content: space-between;
     }
 }

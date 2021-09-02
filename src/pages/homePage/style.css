@@ -22,3 +22,6 @@
         display: none;
     }
 }
+body.dark-mode .homePageWrapper{
+    display: none;
+}

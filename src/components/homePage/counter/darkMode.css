@@ -1,0 +1,5 @@
+body.dark-mode .counterWrapper .counterBox{
+    background-image: -webkit-linear-gradient(0deg,#515151 0%,#363636 100%);
+    box-shadow:  5px 5px 12px #212121,
+    -5px -5px 12px #313131;
+}

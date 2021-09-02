@@ -1,0 +1,26 @@
+[
+  {
+    "id": 0,
+    "img": "./img/homePage/xtestimonial_img_1.png.pagespeed.ic.k5R0ygRF_S.webp",
+    "text": "من از این دوره خیلی رازی بودم و تونستم بلافاصله بعد از به اتمام رساندن این دوره برم سر کار و واقعا برام مفید بود",
+    "nameStudent": "علی صادقی",
+    "course": " React دوره آموزش",
+    "path": "/courses"
+  },
+  {
+    "id": 1,
+    "img": "./img/homePage/xtestimonial_img_2.png.pagespeed.ic.seISYSPxeb.webp",
+    "text": "من از این دوره خیلی رازی بودم و تونستم بلافاصله بعد از به اتمام رساندن این دوره برم سر کار و واقعا برام مفید بود",
+    "nameStudent": "هنگامه عابدی",
+    "course": " Html&css دوره آموزش",
+    "path": "/courses"
+  },
+  {
+    "id": 2,
+    "img": "./img/homePage/xtestimonial_img_3.png.pagespeed.ic.9Xm8WByop-.webp",
+    "text": "من از این دوره خیلی رازی بودم و تونستم بلافاصله بعد از به اتمام رساندن این دوره برم سر کار و واقعا برام مفید بود",
+    "nameStudent": "محمد احمدی",
+    "course": "Javascript  دوره آموزش ",
+    "path": "/courses"
+  }
+]

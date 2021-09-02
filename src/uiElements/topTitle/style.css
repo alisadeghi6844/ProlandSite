@@ -18,3 +18,6 @@
     text-decoration: none;
     color: rgb(85, 97, 114);
 }
+body.dark-mode .topTitleUIE h5 a{
+    color: #fff !important;
+}

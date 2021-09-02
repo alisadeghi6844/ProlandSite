@@ -1,0 +1,32 @@
+body.dark-mode .courses .courseBox .img{
+    background: #414141 !important;
+    border-bottom: 1px solid #777;
+}
+body.dark-mode .courses .courseBox .img img {
+    filter: none !important;
+}
+
+body.dark-mode .courses .courseBox .img:hover img {
+    filter: none !important;
+}
+body.dark-mode .courses .courseBox .text {
+    border: none;
+    background: #414141;
+}
+body.dark-mode .courses .courseBox{
+    padding: 0 !important;
+    box-shadow:  5px 5px 12px #212121,
+    -5px -5px 12px #313131;
+}
+body.dark-mode .courses .text h3 a{
+    color: #fff;
+}
+body.dark-mode .courses .text p{
+    color: #d2d2d2;
+}
+.courses .text .titleTop a{
+    background: #555555;
+}
+.courses .text .titleTop p{
+    color: #ff663b !important;
+}

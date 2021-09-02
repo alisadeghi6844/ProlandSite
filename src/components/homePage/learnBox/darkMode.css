@@ -1,0 +1,9 @@
+body.dark-mode .learnBoxWrapper .bannerLearning {
+    background-image:none;
+}
+body.dark-mode .learnBoxWrapper .title h5 a{
+    color: #fff !important;
+}
+body.dark-mode .learnBoxWrapper .title p,body.dark-mode .learnBoxWrapper .title ul li{
+    color: #d2d2d2;
+}

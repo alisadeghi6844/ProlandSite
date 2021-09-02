@@ -1,0 +1,17 @@
+body.dark-mode #header.actionScroll{
+    background: #414141;
+}
+body.dark-mode #header .headerBox .linkHeader ul li a{
+    color: #fff;
+    transition: all 0.3s;
+}
+body.dark-mode #header .headerBox .linkHeader ul li a:hover{
+    color: #ee3a0f;
+}
+body.dark-mode #header .headerBox .linkHeaderResponsive.activeMenu{
+    background: #414141;
+    user-select: none;
+}
+body.dark-mode #header .headerBox .linkHeaderResponsive.activeMenu ul li a{
+    color: #fff;
+}

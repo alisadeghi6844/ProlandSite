@@ -1,0 +1,158 @@
+#footer {
+    padding-top: 150px;
+}
+#footer .footerWrapper{
+    background: #f7f7f7;
+    padding: 100px 0 20px;
+}
+#footer .footerBox .contactUs .title h4,#footer .footerBox .links .title h4{
+    margin-bottom: 23px !important;
+    font-weight: 700 !important;
+    font-size: 24px !important;
+}
+#footer .footerBox .contactUs .lists ul li{
+    list-style-type: none;
+}
+#footer .footerBox .contactUs .lists ul li span{
+    color: #0c2e60;
+    font-size: 16px;
+}
+#footer .footerBox .contactUs .lists ul li,#footer .footerBox .contactUs .lists ul li a {
+    margin-bottom: 10px !important;
+    font-size: 14px !important;
+    color: #888888 !important;
+    text-decoration: none;
+}
+#footer .footerBox .contactUs .lists ul li a{
+    color: cornflowerblue !important;
+    transition: all 0.3s;
+}
+#footer .footerBox .contactUs .lists ul li a:hover{
+    color: #f9b301 !important;
+}
+#footer .footerBox .links .lists ul li{
+    list-style-type: none;
+    margin-bottom: 5px;
+    position: relative;
+}
+#footer .footerBox .links .lists ul li::before{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 2px;
+    background: #ef460f;
+    right: -25px;
+    top: 50%;
+    transition: all 0.3s;
+}
+#footer .footerBox .links .lists ul li:hover::before{
+    width: 18px;
+}
+#footer .footerBox .links .lists ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #888888;
+    transition: all 0.3s;
+}
+#footer .footerBox .links .lists ul li a:hover{
+    color: #f9b301;
+}
+#footer .footerBox .links .socialMedia ul li:not(:first-child){
+    margin-right: 12px;
+}
+#footer .footerBox .links .socialMedia ul li{
+    margin-top: 8px;
+}
+
+#footer .footerBox .links .socialMedia ul li i{
+    color: #cccccc;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+#footer .footerBox .links .socialMedia ul li i:hover{
+    color: #f9b301;
+}
+#footer .footerBox .description .logo img{
+    width: 150px !important;
+    margin-bottom: 40px;
+}
+#footer .footerBox .description .text p{
+    font-size: 16px;
+    line-height: 1.8;
+    color: #888;
+}
+#footer .footerWrapper .copyright{
+    margin-top: 100px;
+    text-align: center;
+}
+#footer .footerWrapper .copyright .text{
+    padding-top: 26px;
+    border-top: 1px solid #dedede;
+    font-size: 16px;
+    color: #888;
+}
+#footer .footerWrapper .copyright .text span{
+    color: #f9b301;
+}
+
+@media screen and (max-width: 992px) {
+    #footer .footerBox .contactUs .title h4,#footer .footerBox .links .title h4{
+        margin-bottom: 20px !important;
+        font-size: 20px !important;
+    }
+    #footer {
+        padding-top: 120px;
+    }
+    #footer .footerBox .contactUs .lists ul li span{
+        color: #0c2e60;
+        font-size: 15px;
+    }
+    #footer .footerBox .links .lists ul li a{
+        font-size: 15px;
+    }
+    #footer .footerBox .links .socialMedia ul li{
+        margin-top: 5px;
+    }
+    #footer .footerBox .links .socialMedia ul li i{
+        font-size: 18px;
+    }
+    #footer .footerBox .description .text p{
+        font-size: 15px;
+    }
+    #footer .footerBox .description .logo img{
+        margin-bottom: 28px;
+    }
+    #footer .footerWrapper .copyright{
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #footer .footerBox .contactUs{
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #footer .footerBox .links .lists ul li::before{
+    width: 0;
+    }
+    #footer .footerBox .links .lists ul li:hover::before{
+        width: 0;
+    }
+    #footer {
+        padding-top: 80px;
+    }
+    #footer .footerWrapper{
+        background: #f7f7f7;
+        padding: 60px 0 15px;
+    }
+    #footer .footerBox .description{
+        margin-top: 30px;
+    }
+    #footer .footerBox .contactUs{
+        margin-top: 30px;
+    }
+    #footer .footerWrapper .copyright .text{
+        padding-top: 20px;
+        font-size: 14px;
+    }
+}

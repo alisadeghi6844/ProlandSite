@@ -1,0 +1,21 @@
+body.dark-mode #footer .footerWrapper {
+    background: #414141;
+    box-shadow:  5px 5px 12px #212121,
+    -5px -5px 12px #313131;
+}
+body.dark-mode #footer .footerBox .contactUs .lists ul li span{
+    color: #fff;
+}
+body.dark-mode #footer .footerBox .contactUs .lists ul li,body.dark-mode #footer .footerBox .contactUs .lists ul li a {
+    color: #d2d2d2 !important;
+}
+body.dark-mode #footer .footerBox .links .lists ul li a{
+    color: #d2d2d2;
+}
+body.dark-mode #footer .footerBox .description .text p{
+    color: #d2d2d2;
+}
+body.dark-mode #footer .footerWrapper .copyright .text{
+    border-top: 1px solid #707070;
+    color: #d2d2d2;
+}

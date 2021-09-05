@@ -15,3 +15,6 @@ body.dark-mode #header .headerBox .linkHeaderResponsive.activeMenu{
 body.dark-mode #header .headerBox .linkHeaderResponsive.activeMenu ul li a{
     color: #fff;
 }
+body.dark-mode #header.actionScroll .linkHeaderAboutUs ul li a{
+    color: #fff;
+}

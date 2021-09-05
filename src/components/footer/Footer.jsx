@@ -3,6 +3,7 @@ import {useSelector} from "react-redux";
 import {NavLink} from "react-router-dom";
 import Image from "../../uiElements/image/Image";
 import "./style.css";
+import "./darkMode.css";
 
 const Footer = () => {
     const topNav = useSelector(state => state.topNav);

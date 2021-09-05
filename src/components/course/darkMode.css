@@ -24,9 +24,12 @@ body.dark-mode .courses .text h3 a{
 body.dark-mode .courses .text p{
     color: #d2d2d2;
 }
-.courses .text .titleTop a{
+body.dark-mode .courses .text .titleTop a{
     background: #555555;
 }
-.courses .text .titleTop p{
+body.dark-mode .courses .text .titleTop p{
     color: #ff663b !important;
+}
+body.dark-mode .courses .text .titleTop a:hover {
+    background: rgba(255, 102, 59, 0.8);
 }

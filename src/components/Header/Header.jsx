@@ -2,12 +2,13 @@ import React, {Fragment, useEffect, useState} from 'react';
 import {useSelector} from "react-redux";
 import {NavLink} from "react-router-dom";
 import DarkMode from "../darkMode/DarkMode";
+import {withRouter} from "react-router-dom";
 import Image from "../../uiElements/image/Image";
 import ButtonHover from "../../uiElements/ButtonHover/ButtonHover";
 import "./style.css";
 import "./darkMode.css";
 
-const Header = () => {
+const Header = (props) => {
     const [actionScroll, setActionScroll] = useState(false);
     const [showMenu, setShowMenu] = useState(false);
     const topNav = useSelector(state => state.topNav);
@@ -33,6 +34,7 @@ const Header = () => {
         setShowMenu(!showMenu);
     }
 
+    const {pathname} = props.location;
     return (
         <Fragment>
             <header id="header" className={actionScroll ? "actionScroll" : ""}>
@@ -41,7 +43,7 @@ const Header = () => {
                         <div className="row">
                             <div className="col-lg-8 col-6">
                                 <div className="d-lg-block d-none">
-                                    <nav className="linkHeader">
+                                    <nav className={pathname === "/aboutUs" ? "linkHeaderAboutUs":"linkHeader"}>
                                         <ul className="nav">
                                             <li className="nav-item">
                                                 <ButtonHover toPath='/login'>ورود به سایت</ButtonHover>
@@ -50,7 +52,8 @@ const Header = () => {
                                             {topNav.map((item) => (
                                                 <li key={item.id} className="nav-item">
                                                     <NavLink id={item.id}
-                                                             activeStyle={item.id !== 1 && {color: "#ee3a0f"}}
+                                                             exact={item.id === 1 ? true : false}
+                                                             activeStyle={{color: "#ee3a0f"}}
                                                              to={item.path}>{item.title}</NavLink>
                                                 </li>
                                             ))}
@@ -69,7 +72,8 @@ const Header = () => {
                                                 {topNav.map((item) => (
                                                     <li key={item.id} className="nav-item">
                                                         <NavLink id={item.id}
-                                                                 activeStyle={item.id !== 1 && {color: "#ee3a0f"}}
+                                                                 exact={item.id === 1 ? true : false}
+                                                                 activeStyle={{color: "#ee3a0f"}}
                                                                  to={item.path}>{item.title}</NavLink>
                                                     </li>
                                                 ))}
@@ -86,9 +90,9 @@ const Header = () => {
                                         <Image src={'./img/logo/logo-min.png'} alt={'topTeach logo'}/>
                                     </NavLink>
 
-
+                                    <div className="darkMode">
                                     <DarkMode/>
-
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -99,4 +103,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default withRouter(Header);

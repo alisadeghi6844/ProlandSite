@@ -4,6 +4,7 @@ import Layout from "../components/layout/layoute";
 import HomePage from "../pages/homePage/HomePage";
 import NotFound from "../components/notFound/NotFound";
 import Courses from "../pages/courses/Courses";
+import AboutUs from "../pages/aboutUs/AboutUs";
 
 const Proland = () => {
     return (
@@ -11,6 +12,7 @@ const Proland = () => {
             <Layout>
                 <Switch>
                     <Route path="/courses" component={Courses}/>
+                    <Route path="/aboutUs" component={AboutUs}/>
                     <Route exact path="/" component={HomePage}/>
                     <Route component={NotFound}/>
                 </Switch>

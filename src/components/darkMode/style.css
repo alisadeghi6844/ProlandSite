@@ -1,0 +1,127 @@
+.toggle{
+    cursor  : pointer;
+    display : block;
+    width   : 52px;
+    height  : 52px;
+    position: relative;
+    user-select: none;
+}
+
+.toggle {
+    margin: 0;
+}
+
+.a , .b{
+    position : absolute;
+    top   : 0;
+    left  : 0;
+    width : 52px;
+    height: 52px;
+    background  : #b1bb1b;
+    text-align  : center;
+    font-size   : 30px;
+    line-height : 60px;
+    font-weight : bold;
+    color       : #1b1b1b;
+    border-radius : 15px;
+    border : 2px dotted rgba(0,0,0,.5);
+    text-shadow : 1px 1px 0 rgba(250, 250, 250, 0.5);
+}
+
+.a {
+    z-index : 1;
+}
+
+.b {
+    background : #b1bbfb;
+    z-index : 2;
+}
+
+#switch {
+    position: absolute;
+    left: -9999px;
+}
+
+
+#switch:checked ~ .toggle .b {
+    animation : move-r 1s both;
+}
+
+
+#switch:not(:checked) ~ .toggle .b{
+    animation : move-l 1s both;
+}
+
+
+@keyframes move-r {
+    40% {
+        transform : rotate(500deg) scale(1.1);
+        left : 130%;
+    }
+
+    100% {
+        left    : 0;
+        z-index : -1;
+    }
+
+}
+
+
+@keyframes move-l {
+
+    0% {
+        -webkit-transform : rotate(0deg);
+        left    : 0;
+        z-index : -1;
+    }
+
+    50% {
+        transform : rotate(900deg) scale(.6);
+        left    : -130%;
+        z-index : -1;
+    }
+
+    100% {
+        left    : 0;
+        z-index : 2;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .toggle{
+        width   : 40px;
+        height  : 40px;
+    }
+
+    .a , .b{
+        width : 40px;
+        height: 40px;
+        font-size   : 20px;
+        line-height : 40px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .toggle{
+        width   : 50px;
+        height  : 50px;
+    }
+
+    .a , .b{
+        width : 50px;
+        height: 50px;
+        font-size   : 25px;
+        line-height : 55px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .toggle{
+        width   : 35px;
+        height  : 35px;
+    }
+
+    .a , .b{
+        width : 35px;
+        height: 35px;
+        font-size   : 18px;
+        line-height : 35px;
+    }
+}

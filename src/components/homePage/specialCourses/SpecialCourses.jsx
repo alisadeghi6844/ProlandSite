@@ -1,12 +1,12 @@
 import React, {useEffect, useState} from 'react';
-import {useSelector} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {NavLink} from "react-router-dom";
 import Course from "../../course/Course";
 import "./style.css";
+import {showLoading} from "react-redux-loading-bar";
 
 const SpecialCourses = () => {
     const dataCourses = useSelector(state => state.homePageCourses);
-
     const [width, setWidth] = useState(window.innerWidth);
     const breakPoint = 768;
 

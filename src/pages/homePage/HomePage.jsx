@@ -1,7 +1,9 @@
-import React, {Fragment} from 'react';
+import React, {Fragment, useEffect, useState} from 'react';
 import {Helmet} from "react-helmet";
 import LazyLoad from 'react-lazyload';
+import {useDispatch} from "react-redux";
 import Counter from "../../components/homePage/counter/Counter";
+import {hideLoading, showLoading} from "react-redux-loading-bar";
 import LearnBox from "../../components/homePage/learnBox/LearnBox";
 import FeatureUs from "../../components/homePage/featureUs/FeatureUs";
 import TitleHomePage from "../../components/homePage/titleHomePage/TitleHomePage";
@@ -10,9 +12,19 @@ import AdvanceFeature from "../../components/homePage/advanceFeature/AdvanceFeat
 import SpecialCourses from "../../components/homePage/specialCourses/SpecialCourses";
 import "./style.css";
 
+
 const HomePage = () => {
+    const dispatch = useDispatch();
+    useEffect(() => {
+        dispatch(showLoading());
+        setTimeout(function () {
+            dispatch(hideLoading());
+        }, 2000);
+    }, []);
+
     return (
         <Fragment>
+
             <Helmet>
                 <title>proland | آموزش برنامه نویسی</title>
             </Helmet>

@@ -7,6 +7,9 @@ import "./darkMode.css";
 
 const Footer = () => {
     const topNav = useSelector(state => state.topNav);
+    const handleOnclickLinks =()=>{
+        window.scroll(0,0);
+    }
     return (
         <>
             <footer id="footer">
@@ -44,7 +47,9 @@ const Footer = () => {
                                                 {topNav.map((item)=>(
                                                     <li key={item.id} className="nav-item">
                                                         <NavLink id={item.id}
-                                                                 activeStyle={item.id !== 1 && {color: "#ee3a0f"}}
+                                                                 onClick={handleOnclickLinks}
+                                                                 exact={item.id === 1 ? true : false}
+                                                                 activeStyle={{color: "#ee3a0f"}}
                                                                  to={item.path}>{item.title}</NavLink>
                                                     </li>
                                                 ))}

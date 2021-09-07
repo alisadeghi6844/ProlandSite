@@ -1,0 +1,10 @@
+.aboutUs .aboutFeatures{
+    padding: 80px 0;
+}
+
+.aboutUs .aboutFeaturesWrapper{
+    position: relative;
+    background: url("./img/about-bg-min.png") center center no-repeat;
+    background-size: cover;
+    padding: 160px 0 140px 0;
+}

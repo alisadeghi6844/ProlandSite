@@ -1,0 +1,92 @@
+.aboutUs .introducingTheTeam{
+    padding: 70px 0 80px;
+}
+.aboutUs .introducingTheTeam .textBox .title h2{
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+.aboutUs .introducingTheTeam .textBox .title p{
+    font-size: 0.95rem;
+    color: #888888;
+    margin-bottom: 50px;
+}
+.aboutUs .introducingTheTeam .chart .programmerProgress:not(:first-child){
+    margin-top: 40px;
+}
+.aboutUs .introducingTheTeam .chart .textProgress{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.aboutUs .introducingTheTeam .chart .textProgress .number{
+    font-size: 18px;
+    font-weight: 600;
+    color: #ef460f;
+}
+.aboutUs .introducingTheTeam .chart .textProgress .text{
+    font-size: 18px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+.aboutUs .introducingTheTeam .chart .progress{
+    direction: ltr;
+    height: 7px;
+    border-radius: 30px;
+}
+.aboutUs .introducingTheTeam .chart .progress .progress-bar{
+    background: linear-gradient(
+            105deg
+            , #ef460f 0%, #f9b301 100%);
+}
+.aboutUs .introducingTheTeam .img{
+    padding: 30px;
+}
+@media screen and (max-width: 1200px) {
+    .aboutUs .introducingTheTeam .textBox .title h2{
+        font-size: 35px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .aboutUs .introducingTheTeam .img{
+        padding: 0;
+        margin-top: 80px;
+    }
+}
+@media screen and (max-width: 550px) {
+    .aboutUs .introducingTheTeam .textBox .title h2 {
+        font-size: 28px;
+    }
+
+    .aboutUs .introducingTheTeam .textBox .title p {
+        font-size: 0.93rem;
+    }
+    .aboutUs .introducingTheTeam{
+        padding: 50px 10px 60px;
+    }
+    .aboutUs .introducingTheTeam .chart .textProgress .number{
+        font-size: 16px;
+    }
+    .aboutUs .introducingTheTeam .chart .textProgress .text{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .aboutUs .introducingTheTeam .textBox .title h2 {
+        font-size: 23px;
+        line-height: 2.3rem;
+    }
+
+    .aboutUs .introducingTheTeam .textBox .title p {
+        font-size: 0.89rem;
+    }
+    .aboutUs .introducingTheTeam{
+        padding: 40px 4px 50px;
+    }
+    .aboutUs .introducingTheTeam .img{
+        padding: 0;
+        margin-top: 40px;
+    }
+}

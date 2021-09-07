@@ -1,0 +1,155 @@
+.aboutUs .teachersInfoWrapper .title {
+    text-align: center;
+}
+
+.aboutUs .teachersInfoWrapper .title h2 {
+    position: relative;
+    font-size: 2.7rem;
+    margin-bottom: 70px;
+}
+
+.aboutUs .teachersInfoWrapper .title h2::after {
+    content: "";
+    position: absolute;
+    width: 10%;
+    bottom: -15px;
+    height: 2px;
+    background-color: #ff663b;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.aboutUs .teachersInfoWrapper .title h5 {
+    color: #556172;
+    font-weight: 500;
+    display: block;
+    line-height: 11px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+.aboutUs .teachersInfoWrapper .teacherBox .img{
+    border-radius: 8px 8px 0 0;
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.aboutUs .teachersInfoWrapper .teacherBox .box1 .img{
+    background: url("./img/xblog_3.png.pagespeed.ic.asZDY7GMVU.webp") center center no-repeat;
+    background-size: cover;
+}
+.aboutUs .teachersInfoWrapper .teacherBox .box2 .img{
+    background: url("./img/xblog_2.png.pagespeed.ic.UfJHBMkPVa.webp") center center no-repeat;
+    background-size: cover;
+}
+.aboutUs .teachersInfoWrapper .teacherBox .box3 .img{
+    background: url("./img/teacher-3.png") center center no-repeat;
+    background-size: cover;
+}
+.aboutUs .teachersInfoWrapper .teacherBox  .textBox {
+    padding: 30px 25px;
+    border: 1px solid #eeeeee;
+    transition: all 0.4s;
+}
+.aboutUs .teachersInfoWrapper .teacherBox  .textBox:hover{
+    border: 1px solid transparent;
+    box-shadow: 0 10px 30px 0 rgba(12,46,96,0.1);
+}
+.aboutUs .teachersInfoWrapper .teacherBox  .textBox .teacherJob a{
+    background: #ff663b;
+    text-decoration: none;
+    color: #fff;
+    padding: 5px  21px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-bottom: 20px;
+    transition: all 0.3s;
+}
+.aboutUs .teachersInfoWrapper .teacherBox  .textBox .teacherJob a:hover{
+    background: rgba(255, 102, 59, 0.8);
+}
+.aboutUs .teachersInfoWrapper .teacherBox  .textBox .titleBox h4{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.aboutUs .teachersInfoWrapper .teacherBox  .textBox .titleBox p{
+    line-height: 1.929;
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: #888;
+}
+.aboutUs .teachersInfoWrapper .teacherBox  .textBox .footerBox{
+    padding-top: 20px;
+    border-top: 1px solid #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutUs .teachersInfoWrapper .teacherBox  .textBox .footerBox span{
+    color: #8a8a8a;
+    font-size: 15px;
+}
+.aboutUs .teachersInfoWrapper .teacherBox  .textBox .footerBox i{
+    margin-right: 10px;
+    color: #8a8a8a;
+}
+@media screen and (max-width: 1200px) {
+    .aboutUs .teachersInfoWrapper .title h2 {
+        font-size: 35px;
+    }
+
+    .aboutUs .teachersInfoWrapper .title h2::after {
+        width: 13%;
+    }
+}
+@media screen and (max-width: 992px){
+    .aboutUs .teachersInfoWrapper .title h2 {
+        position: relative;
+        font-size: 32px;
+        margin-bottom: 40px;
+    }
+    .aboutUs .teachersInfoWrapper .teacherBox:last-child{
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .aboutUs .teachersInfoWrapper .teacherBox .textBox {
+        padding: 20px 15px;
+    }
+    .aboutUs .teachersInfoWrapper .teacherBox .textBox .teacherJob a {
+        padding: 4px 18px;
+        font-size: 0.9rem;
+    }
+    .aboutUs .teachersInfoWrapper .teacherBox  .textBox .titleBox h4{
+        font-size: 1.2rem;
+    }
+    .aboutUs .teachersInfoWrapper .teacherBox  .textBox .titleBox p{
+        font-size: 14px;
+        margin-bottom: 17px;
+    }
+    .aboutUs .teachersInfoWrapper .teacherBox  .textBox .footerBox{
+        padding-top: 17px;
+    }
+    .aboutUs .teachersInfoWrapper .teacherBox  .textBox .footerBox span{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 568px) {
+    .aboutUs .teachersInfoWrapper .title h5{
+        font-size: 16px;
+    }
+    .aboutUs .teachersInfoWrapper .title h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .aboutUs .teachersInfoWrapper .title h2{
+        font-size: 23px;
+        line-height: 2.3rem;
+    }
+    .aboutUs .teachersInfoWrapper .title h2::after {
+        width: 20%;
+    }
+}

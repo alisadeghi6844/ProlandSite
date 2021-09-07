@@ -73,7 +73,7 @@ const FeatureUs = () => {
                                         کمترین هزینه برنامه نویسی را یاد بگیرید .</p>
                                 </div>
                                 <div className="button">
-                                    <ButtonHover toPath="/readMore/featureUs">بیشتر بخوانید</ButtonHover>
+                                    <ButtonHover toPath="/aboutUs">بیشتر بخوانید</ButtonHover>
                                 </div>
                             </div>
                             </ScrollAnimation>

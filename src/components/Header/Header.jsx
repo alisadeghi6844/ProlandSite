@@ -34,6 +34,10 @@ const Header = (props) => {
         setShowMenu(!showMenu);
     }
 
+    const handleOnclickLinks =()=>{
+        window.scroll(0,0);
+    }
+
     const {pathname} = props.location;
     return (
         <Fragment>
@@ -52,6 +56,7 @@ const Header = (props) => {
                                             {topNav.map((item) => (
                                                 <li key={item.id} className="nav-item">
                                                     <NavLink id={item.id}
+                                                             onClick={handleOnclickLinks}
                                                              exact={item.id === 1 ? true : false}
                                                              activeStyle={{color: "#ee3a0f"}}
                                                              to={item.path}>{item.title}</NavLink>
@@ -72,6 +77,7 @@ const Header = (props) => {
                                                 {topNav.map((item) => (
                                                     <li key={item.id} className="nav-item">
                                                         <NavLink id={item.id}
+                                                                 onClick={handleOnclickLinks}
                                                                  exact={item.id === 1 ? true : false}
                                                                  activeStyle={{color: "#ee3a0f"}}
                                                                  to={item.path}>{item.title}</NavLink>

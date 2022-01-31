@@ -19,7 +19,7 @@ const HomePage = () => {
         dispatch(showLoading());
         setTimeout(function () {
             dispatch(hideLoading());
-        }, 2000);
+        }, 1000);
     }, []);
 
     return (

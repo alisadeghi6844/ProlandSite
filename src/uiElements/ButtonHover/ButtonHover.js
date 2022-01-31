@@ -7,11 +7,16 @@ const ButtonHover = (props) => {
     return (
         <div>
             <div className="buttonHoverUI">
-                <NavLink className="link" to={props.toPath}><Button className={props.className}>
+                {props.toPath?<NavLink className="link" to={props.toPath}><Button className={props.className}>
                     <span>
                         {props.children}
                     </span>
-                </Button></NavLink>
+                </Button></NavLink>:<Button className={props.className}>
+                    <span>
+                        {props.children}
+                    </span>
+                </Button>}
+
             </div>
         </div>
     );

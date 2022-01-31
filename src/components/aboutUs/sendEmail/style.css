@@ -1,0 +1,159 @@
+.aboutUs .sendEmail{
+    padding: 100px 0 20px;
+}
+.aboutUs .sendEmail .sendEmailWrapper{
+    background: url("./img/contact-bg.png") center center no-repeat;
+    background-size: cover;
+    padding: 160px 0;
+}
+.aboutUs .sendEmail .sendEmailWrapper .formEmail{
+    background: #fff;
+    border-radius: 20px;
+    padding: 60px 30px;
+    margin-left: 20px;
+    position: relative;
+}
+.aboutUs .sendEmail .sendEmailWrapper .formEmail .form-control{
+    width: 100%;
+    border-radius: 33px;
+    background-color: #d1f3ff;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #03a4ed;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.aboutUs .sendEmail .sendEmailWrapper .formEmail .form-control::placeholder{
+    font-weight: normal;
+}
+.aboutUs .sendEmail .sendEmailWrapper .formEmail textarea.form-control{
+    max-height: 200px !important;
+    min-height: 130px;
+}
+.aboutUs .sendEmail .sendEmailWrapper .formEmail button{
+    display: inline-block;
+    background-color: #03a4ed;
+    font-size: 17px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    padding: 8px 30px;
+    border-radius: 23px;
+    border: none;
+    outline: none;
+    transition: all .3s;
+    margin-top: 12px;
+}
+.aboutUs .sendEmail .sendEmailWrapper .formEmail button:hover{
+    background:#ff3252 ;
+}
+.aboutUs .sendEmail .sendEmailWrapper .formEmail .img{
+    position: absolute;
+    top: 25%;
+    right: -160px;
+}
+.aboutUs .sendEmail .sendEmailWrapper .text{
+    margin-right: 30px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.aboutUs .sendEmail .sendEmailWrapper .text h3{
+    color: #fff !important;
+    font-size: 2rem;
+    line-height: 3.2rem;
+    margin-bottom: 30px;
+}
+.aboutUs .sendEmail .sendEmailWrapper .text p{
+    color: #fff;
+    margin-bottom: 60px;
+}
+.aboutUs .sendEmail .sendEmailWrapper .text .phone{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.aboutUs .sendEmail .sendEmailWrapper .text .phone h4{
+    color: #fff !important;
+}
+.aboutUs .sendEmail .sendEmailWrapper .text .phone span{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    align-items: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+.aboutUs .sendEmail .sendEmailWrapper .text .phone i{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #ff3252;
+    font-size: 1.4rem;
+    margin-left: 20px;
+}
+@media screen and (max-width: 1400px){
+    .aboutUs .sendEmail .sendEmailWrapper .text{
+        margin-right: 0;
+        padding: 30px 0;
+        margin-top: 50px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .aboutUs .sendEmail .sendEmailWrapper .text h3{
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .text p{
+        font-size: 15px;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .text .phone h4{
+        font-size: 18px;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .text .phone span{
+
+        font-size: 1rem;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .text .phone i{
+        width: 40px;
+        height: 40px;
+        font-size: 1.2rem;
+    }
+}
+@media screen and (max-width: 992px){
+    .aboutUs .sendEmail .sendEmailWrapper .text{
+        padding: 25px 0;
+        margin-top: 0;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .formEmail{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 568px) {
+    .aboutUs .sendEmail .sendEmailWrapper .text h3{
+        font-size: 1.3rem;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .text p{
+        font-size: 14px;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .text .phone span{
+        font-size: 0.8rem;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .text .phone h4{
+        font-size: 14px;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .text .phone i{
+        width: 30px;
+        height: 30px;
+        font-size: 1rem;
+        margin-left: 10px;
+    }
+    .aboutUs .sendEmail .sendEmailWrapper .formEmail{
+        padding: 20px 10px
+    }
+}

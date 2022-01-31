@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from 'react';
+import ScrollAnimation from "react-animate-on-scroll";
 import {NavLink} from "react-router-dom";
 import "./style.css";
-import ScrollAnimation from "react-animate-on-scroll";
+import "./darkMode.css";
 
 const TeachersInfo = () => {
     const [width, setWidth] = useState(window.innerWidth);

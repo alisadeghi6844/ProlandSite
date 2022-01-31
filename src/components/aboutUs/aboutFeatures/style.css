@@ -1,5 +1,5 @@
 .aboutUs .aboutFeatures{
-    padding: 80px 0;
+    padding: 80px 0 60px;
 }
 
 .aboutUs .aboutFeaturesWrapper{
@@ -7,4 +7,109 @@
     background: url("./img/about-bg-min.png") center center no-repeat;
     background-size: cover;
     padding: 160px 0 140px 0;
+}
+.aboutUs .aboutFeaturesWrapper .featureBox{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+.aboutUs .aboutFeaturesWrapper .featureBox.box3,.aboutUs .aboutFeaturesWrapper .featureBox.box4{
+    margin-top: 30px;
+}
+.aboutUs .aboutFeaturesWrapper .featureBox .icon{
+    margin-left: 25px;
+}
+.aboutUs .aboutFeaturesWrapper .featureBox .icon img{
+    width: 175px;
+    height: 70px;
+}
+.aboutUs .aboutFeaturesWrapper .featureBox .text h6{
+    color: #fff !important;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+.aboutUs .aboutFeaturesWrapper .featureBox .text p{
+    font-size: 14px;
+    color: #c7c7c7;
+}
+.aboutUs .aboutFeaturesWrapper .img{
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 992px){
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .animated{
+        margin-top: 30px;
+    }
+    .aboutUs .aboutFeaturesWrapper{
+        background: none;
+    }
+    .aboutUs .aboutFeatures{
+        padding:0 0 120px;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive{
+        padding: 0 80px;
+        position: relative;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes{
+        background: -webkit-linear-gradient(0deg,#ee390f 0%,#f9b700 100%);
+        border-radius: 20px;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes:not(:first-child){
+        margin-top: 30px;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box{
+        padding: 25px 25px 15px;
+        display: flex;
+        justify-content: center;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box .icon{
+        width: 135px;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box .text{
+        margin-right: 20px;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box .text h6{
+        color: #fff !important;
+        font-size: 1.25rem;
+        margin-bottom: 20px;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box .text p{
+        color: #fff;
+        font-size: 15px;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .img{
+        position: absolute;
+        bottom: -240px;
+        right: -160px;
+        z-index: -1;
+    }
+}
+@media screen and (max-width: 768px){
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive{
+        padding: 0;
+    }
+}
+@media screen and (max-width: 450px){
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box .text{
+        margin-right: 0;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box{
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box .icon{
+        margin-bottom: 20px;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box .text h6{
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+    .aboutUs .aboutFeatures .aboutFeaturesResponsive .aboutFeaturesBoxRes .box .text p{
+        font-size: 14px;
+    }
 }

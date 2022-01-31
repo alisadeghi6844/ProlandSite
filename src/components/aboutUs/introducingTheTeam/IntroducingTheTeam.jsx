@@ -1,6 +1,7 @@
 import React from 'react';
 import {Parallax} from "react-scroll-parallax";
 import Image from "../../../uiElements/image/Image";
+import "./darkMode.css";
 import "./style.css";
 
 const IntroducingTheTeam = () => {

@@ -1,0 +1,17 @@
+body.dark-mode .aboutUs .teachersInfoWrapper .teacherBox  .textBox {
+    border: 1px solid transparent;
+}
+body.dark-mode .aboutUs .teachersInfoWrapper .teacherBox{
+    box-shadow:  5px 5px 12px #212121,
+    -5px -5px 12px #313131;
+}
+body.dark-mode .aboutUs .teachersInfoWrapper .teacherBox  .textBox .teacherJob a{
+    color: #fff;
+    background: #515151;
+}
+body.dark-mode .aboutUs .teachersInfoWrapper .teacherBox  .textBox .teacherJob a:hover{
+    background: rgba(255, 102, 59, 0.8);
+}
+body.dark-mode .aboutUs .teachersInfoWrapper .teacherBox  .textBox .titleBox p{
+    color: #bababa;
+}

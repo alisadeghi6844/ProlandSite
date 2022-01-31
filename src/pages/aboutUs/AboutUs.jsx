@@ -3,6 +3,8 @@ import {Helmet} from "react-helmet";
 import LazyLoad from "react-lazyload";
 import {useDispatch} from "react-redux";
 import {hideLoading, showLoading} from "react-redux-loading-bar";
+import SendEmail from "../../components/aboutUs/sendEmail/SendEmail";
+import Recruitment from "../../components/aboutUs/recruitment/Recruitment";
 import TeachersInfo from "../../components/aboutUs/teachersInfo/TeachersInfo";
 import AboutFeatures from "../../components/aboutUs/aboutFeatures/AboutFeaturs";
 import TopTitleAboutUs from "../../components/aboutUs/topTitleAboutUs/TopTitleAboutUs";
@@ -14,7 +16,7 @@ const AboutUs = () => {
         dispatch(showLoading());
         setTimeout(function () {
             dispatch(hideLoading());
-        }, 2000);
+        }, 1000);
     }, []);
     return (
         <Fragment>
@@ -40,6 +42,16 @@ const AboutUs = () => {
                 <div className="aboutFeatures">
                     <LazyLoad height={800} once>
                         <AboutFeatures/>
+                    </LazyLoad>
+                </div>
+                <div className="recruitment">
+                    <LazyLoad height={400} once>
+                        <Recruitment/>
+                    </LazyLoad>
+                </div>
+                <div className="sendEmail">
+                    <LazyLoad height={800} once>
+                        <SendEmail/>
                     </LazyLoad>
                 </div>
             </main>
